@@ -10,22 +10,14 @@ num5 = float(input("Input fifth number: "))
 highest = num1
 
 # Compare  variables to each other
-def find_the_highest_number(num1,num2,num3,num4,num5):
-    if num2>highest:
-        print("The second number is the highest number!!!")
-        return num2
-    elif num3>highest:
-        print("The third number is the highest number!!!")
-        return num3
-    elif num4>highest:
-        print("The fourth number is the highest number!!!")
-        return num4
-    elif num5>highest:
-        print("The fifth number is the highest number!!!")
-        return num5
-    else: 
-        print("The first number is the highest number!!!")
+if num2>highest:
+    highest = num2
+elif num3>highest:
+    highest = num3
+elif num4>highest:
+    highest = num4
+elif num5>highest:
+    highest = num5
     
-
 # Print what variable is the highest number
-find_the_highest_number(num1,num2,num3,num4,num5)
+print(f"The highest number is: {highest}")

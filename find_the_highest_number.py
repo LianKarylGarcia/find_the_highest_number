@@ -20,6 +20,8 @@ def find_the_highest_number(num1,num2,num3,num4,num5):
     elif num4>num1 and num4>num2 and num4>num3 and num4>num5:
         print("The fourth number is the highest number!!!")
         return num4
+    else:
+        print("The fifth number is the highest number!!!")
     
 
 # Print what variable is the highest number

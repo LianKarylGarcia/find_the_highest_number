@@ -8,6 +8,9 @@ num5 = float(input("Input fifth number: "))
 
 # Compare  variables to each other
 def find_the_highest_number(num1,num2,num3,num4,num5):
+    if num1>num2 and num1>num3 and num1>num4 and num1>num5:
+        print("The first number is the highest number!!!")
+        return num1
     
 
 # Print what variable is the highest number

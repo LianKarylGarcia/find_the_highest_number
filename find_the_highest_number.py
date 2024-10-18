@@ -25,3 +25,4 @@ def find_the_highest_number(num1,num2,num3,num4,num5):
     
 
 # Print what variable is the highest number
+find_the_highest_number(num1,num2,num3,num4,num5)
